@@ -65,16 +65,27 @@
             <!-- Portfolio items will go here -->
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+     <!-- iPhone Emulator with Video -->
+  <section id="video-intro" class="video-intro-section">
+    <h2><center>Introduction Video</center></h2>
+    <div class="iphone-emulator">
+        <div class="video-container">
+            <video src="your-video.mp4" controls></video>
+        </div>
+    </div>
+<br>
+    <section id="contact-us" class="contact-form-section">
         <h2>Contact Us</h2>
-        <p>Get in touch with us to learn more about how we can collaborate.</p>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
+        <form action="https://formspree.io/f/xpwarrgw" method="POST">
+            <label>
+                Your email:
+                <input type="email" name="email" required>
+            </label>
+            <label>
+                Your message:
+                <textarea name="message" rows="6" required></textarea>
+            </label>
+            <button type="submit">Send</button>
         </form>
     </section>
 
